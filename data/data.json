@@ -1,0 +1,793 @@
+{
+  "ranks": [
+    {
+      "name": "Street Rat I",
+      "level": 1
+    },
+    {
+      "name": "Street Rat II",
+      "level": 2
+    },
+    {
+      "name": "Street Rat III",
+      "level": 3
+    },
+    {
+      "name": "Street Rat IV",
+      "level": 4
+    },
+    {
+      "name": "Street Rat V",
+      "level": 5
+    },
+    {
+      "name": "Hoodlum I",
+      "level": 6
+    },
+    {
+      "name": "Hoodlum II",
+      "level": 7
+    },
+    {
+      "name": "Hoodlum III",
+      "level": 8
+    },
+    {
+      "name": "Hoodlum IV",
+      "level": 9
+    },
+    {
+      "name": "Hoodlum V",
+      "level": 10
+    },
+    {
+      "name": "Peddler I",
+      "level": 11
+    },
+    {
+      "name": "Peddler II",
+      "level": 12
+    },
+    {
+      "name": "Peddler III",
+      "level": 13
+    },
+    {
+      "name": "Peddler IV",
+      "level": 14
+    },
+    {
+      "name": "Peddler V",
+      "level": 15
+    },
+    {
+      "name": "Hustler I",
+      "level": 16
+    },
+    {
+      "name": "Hustler II",
+      "level": 17
+    },
+    {
+      "name": "Hustler III",
+      "level": 18
+    },
+    {
+      "name": "Hustler IV",
+      "level": 19
+    },
+    {
+      "name": "Hustler V",
+      "level": 20
+    },
+    {
+      "name": "Bagman I",
+      "level": 21
+    },
+    {
+      "name": "Bagman II",
+      "level": 22
+    },
+    {
+      "name": "Bagman III",
+      "level": 23
+    },
+    {
+      "name": "Bagman IV",
+      "level": 24
+    },
+    {
+      "name": "Bagman V",
+      "level": 25
+    },
+    {
+      "name": "Enforcer I",
+      "level": 26
+    },
+    {
+      "name": "Enforcer II",
+      "level": 27
+    },
+    {
+      "name": "Enforcer III",
+      "level": 28
+    },
+    {
+      "name": "Enforcer IV",
+      "level": 29
+    },
+    {
+      "name": "Enforcer V",
+      "level": 30
+    },
+    {
+      "name": "Shot Caller I",
+      "level": 31
+    },
+    {
+      "name": "Shot Caller II",
+      "level": 32
+    },
+    {
+      "name": "Shot Caller III",
+      "level": 33
+    },
+    {
+      "name": "Shot Caller IV",
+      "level": 34
+    },
+    {
+      "name": "Shot Caller V",
+      "level": 35
+    },
+    {
+      "name": "Block Boss I",
+      "level": 36
+    },
+    {
+      "name": "Block Boss II",
+      "level": 37
+    },
+    {
+      "name": "Block Boss III",
+      "level": 38
+    },
+    {
+      "name": "Block Boss IV",
+      "level": 39
+    },
+    {
+      "name": "Block Boss V",
+      "level": 40
+    },
+    {
+      "name": "Underlord I",
+      "level": 41
+    },
+    {
+      "name": "Underlord II",
+      "level": 42
+    },
+    {
+      "name": "Underlord III",
+      "level": 43
+    },
+    {
+      "name": "Underlord IV",
+      "level": 44
+    },
+    {
+      "name": "Underlord V",
+      "level": 45
+    },
+    {
+      "name": "Baron I",
+      "level": 46
+    },
+    {
+      "name": "Baron II",
+      "level": 47
+    },
+    {
+      "name": "Baron III",
+      "level": 48
+    },
+    {
+      "name": "Baron IV",
+      "level": 49
+    },
+    {
+      "name": "Baron V",
+      "level": 50
+    },
+    {
+      "name": "Kingpin I +",
+      "level": 51
+    }
+  ],
+  "effects": {
+    "1": {
+      "name": "Anti-Gravity",
+      "id": 1,
+      "description": "Causes user to jump higher.",
+      "is_ability": true,
+      "is_cosmetic": false,
+      "multiplier": 0.54
+    },
+    "2": {
+      "name": "Athletic",
+      "id": 2,
+      "description": "Causes user to run faster.",
+      "is_ability": true,
+      "is_cosmetic": false,
+      "multiplier": 0.32
+    },
+    "3": {
+      "name": "Balding",
+      "id": 3,
+      "description": "Causes user to be bald.",
+      "is_ability": false,
+      "is_cosmetic": true,
+      "multiplier": 0.3
+    },
+    "4": {
+      "name": "Bright-Eyed",
+      "id": 4,
+      "description": "Causes user's eyes to shine flashlight beams.",
+      "is_ability": true,
+      "is_cosmetic": false,
+      "multiplier": 0.4
+    },
+    "5": {
+      "name": "Calming",
+      "id": 5,
+      "description": "Causes user to have chromatic aberration around screen.",
+      "is_ability": false,
+      "is_cosmetic": true,
+      "multiplier": 0.1
+    },
+    "6": {
+      "name": "Calorie-Dense",
+      "id": 6,
+      "description": "Causes user to appear fat.",
+      "is_ability": false,
+      "is_cosmetic": true,
+      "multiplier": 0.28
+    },
+    "7": {
+      "name": "Cyclopean",
+      "id": 7,
+      "description": "Causes user to only have one eye.",
+      "is_ability": false,
+      "is_cosmetic": true,
+      "multiplier": 0.56
+    },
+    "8": {
+      "name": "Disorienting",
+      "id": 8,
+      "description": "Causes camera controls for up/down, and movement controls for left/right to be inverted. Forward/backward movement controls will also invert at random for a few steps.",
+      "is_ability": true,
+      "is_cosmetic": false,
+      "multiplier": 0
+    },
+    "9": {
+      "name": "Electrifying",
+      "id": 9,
+      "description": "Causes lightning effect on user.",
+      "is_ability": false,
+      "is_cosmetic": true,
+      "multiplier": 0.5
+    },
+    "10": {
+      "name": "Energizing",
+      "id": 10,
+      "description": "Causes user to run faster.",
+      "is_ability": true,
+      "is_cosmetic": false,
+      "multiplier": 0.22
+    },
+    "11": {
+      "name": "Euphoric",
+      "id": 11,
+      "description": "Causes user to have a euphoric/happy high and smile.",
+      "is_ability": false,
+      "is_cosmetic": true,
+      "multiplier": 0.18
+    },
+    "12": {
+      "name": "Explosive",
+      "id": 12,
+      "description": "Causes user to explode after ticking countdown, killing the user and damaging NPCs in the vicinity.",
+      "is_ability": true,
+      "is_cosmetic": false,
+      "multiplier": 0
+    },
+    "13": {
+      "name": "Focused",
+      "id": 13,
+      "description": "Causes user to have chromatic aberration around screen.",
+      "is_ability": false,
+      "is_cosmetic": true,
+      "multiplier": 0.16
+    },
+    "14": {
+      "name": "Foggy",
+      "id": 14,
+      "description": "Causes a fog cloud effect around user. Also causes a global fog effect, significantly limiting visibility.",
+      "is_ability": false,
+      "is_cosmetic": true,
+      "multiplier": 0.36
+    },
+    "15": {
+      "name": "Gingeritis",
+      "id": 15,
+      "description": "Causes user to have red hair.",
+      "is_ability": false,
+      "is_cosmetic": true,
+      "multiplier": 0.2
+    },
+    "16": {
+      "name": "Glowing",
+      "id": 16,
+      "description": "Causes user to have a radioactive glow.",
+      "is_ability": false,
+      "is_cosmetic": true,
+      "multiplier": 0.48
+    },
+    "17": {
+      "name": "Jennerising",
+      "id": 17,
+      "description": "Causes user to appear female.",
+      "is_ability": false,
+      "is_cosmetic": true,
+      "multiplier": 0.42
+    },
+    "18": {
+      "name": "Laxative",
+      "id": 18,
+      "description": "Causes user to constantly soil themselves.",
+      "is_ability": false,
+      "is_cosmetic": true,
+      "multiplier": 0
+    },
+    "19": {
+      "name": "Lethal",
+      "id": 19,
+      "description": "Causes user to vomit and then die.",
+      "is_ability": true,
+      "is_cosmetic": false,
+      "multiplier": 0
+    },
+    "20": {
+      "name": "Long Faced",
+      "id": 20,
+      "description": "Causes user's neck and face to grow.",
+      "is_ability": false,
+      "is_cosmetic": true,
+      "multiplier": 0.52
+    },
+    "21": {
+      "name": "Munchies",
+      "id": 21,
+      "description": null,
+      "is_ability": false,
+      "is_cosmetic": false,
+      "multiplier": 0.12
+    },
+    "22": {
+      "name": "Paranoia",
+      "id": 22,
+      "description": "Causes user to have a bad high. Also makes NPCs appear to stare at the user from long distances.",
+      "is_ability": false,
+      "is_cosmetic": true,
+      "multiplier": 0
+    },
+    "23": {
+      "name": "Refreshing",
+      "id": 23,
+      "description": null,
+      "is_ability": false,
+      "is_cosmetic": false,
+      "multiplier": 0.14
+    },
+    "24": {
+      "name": "Schizophrenic",
+      "id": 24,
+      "description": "Causes user to run backwards while saying \"oh no\" (muffled) and hear muffled voices. Loud heart beat, open mouth frown, and squinting eyes. User's vision will also randomly pulse.",
+      "is_ability": true,
+      "is_cosmetic": false,
+      "multiplier": 0
+    },
+    "25": {
+      "name": "Sedating",
+      "id": 25,
+      "description": "Causes user to have a vignette around screen and mouse smoothing.",
+      "is_ability": false,
+      "is_cosmetic": true,
+      "multiplier": 0.26
+    },
+    "26": {
+      "name": "Seizure-Inducing",
+      "id": 26,
+      "description": "Causes user to have a seizure and shake on the ground.",
+      "is_ability": false,
+      "is_cosmetic": true,
+      "multiplier": 0
+    },
+    "27": {
+      "name": "Shrinking",
+      "id": 27,
+      "description": "Causes user to shrink.",
+      "is_ability": false,
+      "is_cosmetic": true,
+      "multiplier": 0.6
+    },
+    "28": {
+      "name": "Slippery",
+      "id": 28,
+      "description": "Causes user to have sluggish, slippery movement.",
+      "is_ability": true,
+      "is_cosmetic": false,
+      "multiplier": 0.34
+    },
+    "29": {
+      "name": "Smelly",
+      "id": 29,
+      "description": "Causes user to have a stinky cloud around them.",
+      "is_ability": false,
+      "is_cosmetic": true,
+      "multiplier": 0
+    },
+    "30": {
+      "name": "Sneaky",
+      "id": 30,
+      "description": "Causes the police \"?\" meter to fill up half as fast, and increases size of pickpocket success areas.",
+      "is_ability": true,
+      "is_cosmetic": false,
+      "multiplier": 0.24
+    },
+    "31": {
+      "name": "Spicy",
+      "id": 31,
+      "description": "Causes user's head to light on fire.",
+      "is_ability": false,
+      "is_cosmetic": true,
+      "multiplier": 0.38
+    },
+    "32": {
+      "name": "Thought-Provoking",
+      "id": 32,
+      "description": "Causes user's head to grow in size.",
+      "is_ability": false,
+      "is_cosmetic": true,
+      "multiplier": 0.44
+    },
+    "33": {
+      "name": "Toxic",
+      "id": 33,
+      "description": "Causes user to vomit.",
+      "is_ability": false,
+      "is_cosmetic": true,
+      "multiplier": 0
+    },
+    "34": {
+      "name": "Tropic Thunder",
+      "id": 34,
+      "description": "Causes user's skin color to invert from light to dark or dark to light.",
+      "is_ability": false,
+      "is_cosmetic": true,
+      "multiplier": 0.46
+    },
+    "35": {
+      "name": "Zombifying",
+      "id": 35,
+      "description": "Causes user to have green skin and have a zombie-like voice.",
+      "is_ability": false,
+      "is_cosmetic": true,
+      "multiplier": 0.58
+    }
+  },
+  "drugs": {
+    "1": {
+      "name": "OG Kush",
+      "id": 1,
+      "base_effect_id": 5,
+      "base_sell_value": 38,
+      "unlock_rank": 1
+    },
+    "2": {
+      "name": "Sour Diesel",
+      "id": 2,
+      "base_effect_id": 23,
+      "base_sell_value": 40,
+      "unlock_rank": 5
+    },
+    "3": {
+      "name": "Green Crack",
+      "id": 3,
+      "base_effect_id": 10,
+      "base_sell_value": 43,
+      "unlock_rank": 8
+    },
+    "4": {
+      "name": "Granddaddy Purple",
+      "id": 4,
+      "base_effect_id": 25,
+      "base_sell_value": 44,
+      "unlock_rank": 10
+    },
+    "5": {
+      "name": "Methamphetamine",
+      "id": 5,
+      "base_effect_id": null,
+      "base_sell_value": 70,
+      "unlock_rank": 6
+    },
+    "6": {
+      "name": "Cocaine",
+      "id": 6,
+      "base_effect_id": null,
+      "base_sell_value": 150,
+      "unlock_rank": 26
+    }
+  },
+  "ingredients": {
+    "1": {
+      "name": "Cuke",
+      "id": 1,
+      "buy_price": 2,
+      "unlock_rank": 1,
+      "adds_effect": 10,
+      "replaces_effects": {
+        "11": 18,
+        "14": 7,
+        "15": 32,
+        "21": 2,
+        "28": 21,
+        "30": 22,
+        "33": 11
+      }
+    },
+    "2": {
+      "name": "Banana",
+      "id": 2,
+      "buy_price": 2,
+      "unlock_rank": 1,
+      "adds_effect": 15,
+      "replaces_effects": {
+        "5": 30,
+        "7": 32,
+        "8": 13,
+        "10": 32,
+        "13": 26,
+        "20": 23,
+        "22": 17,
+        "29": 1,
+        "33": 29
+      }
+    },
+    "3": {
+      "name": "Paracetamol",
+      "id": 3,
+      "buy_price": 3,
+      "unlock_rank": 1,
+      "adds_effect": 30,
+      "replaces_effects": {
+        "5": 28,
+        "9": 2,
+        "10": 22,
+        "13": 15,
+        "14": 5,
+        "16": 33,
+        "21": 1,
+        "22": 3,
+        "31": 4,
+        "33": 34
+      }
+    },
+    "4": {
+      "name": "Donut",
+      "id": 4,
+      "buy_price": 3,
+      "unlock_rank": 1,
+      "adds_effect": 6,
+      "replaces_effects": {
+        "1": 28,
+        "3": 30,
+        "6": 12,
+        "13": 11,
+        "17": 15,
+        "21": 5,
+        "27": 10
+      }
+    },
+    "5": {
+      "name": "Viagor",
+      "id": 5,
+      "buy_price": 4,
+      "unlock_rank": 7,
+      "adds_effect": 34,
+      "replaces_effects": {
+        "2": 30,
+        "8": 33,
+        "11": 4,
+        "18": 5,
+        "27": 15
+      }
+    },
+    "6": {
+      "name": "Mouth Wash",
+      "id": 6,
+      "buy_price": 4,
+      "unlock_rank": 8,
+      "adds_effect": 3,
+      "replaces_effects": {
+        "5": 1,
+        "6": 30,
+        "12": 25,
+        "13": 17
+      }
+    },
+    "7": {
+      "name": "Flu Medicine",
+      "id": 7,
+      "buy_price": 5,
+      "unlock_rank": 9,
+      "adds_effect": 25,
+      "replaces_effects": {
+        "2": 21,
+        "5": 4,
+        "7": 14,
+        "11": 33,
+        "13": 5,
+        "18": 11,
+        "20": 23,
+        "21": 28,
+        "27": 22,
+        "32": 15
+      }
+    },
+    "8": {
+      "name": "Gasoline",
+      "id": 8,
+      "buy_price": 5,
+      "unlock_rank": 10,
+      "adds_effect": 33,
+      "replaces_effects": {
+        "8": 16,
+        "9": 8,
+        "10": 31,
+        "11": 31,
+        "15": 29,
+        "17": 30,
+        "18": 14,
+        "21": 25,
+        "22": 5,
+        "27": 13,
+        "30": 34
+      }
+    },
+    "9": {
+      "name": "Energy Drink",
+      "id": 9,
+      "buy_price": 6,
+      "unlock_rank": 11,
+      "adds_effect": 2,
+      "replaces_effects": {
+        "8": 9,
+        "11": 10,
+        "13": 27,
+        "14": 18,
+        "16": 8,
+        "24": 3,
+        "25": 21,
+        "31": 11,
+        "34": 30
+      }
+    },
+    "10": {
+      "name": "Motor Oil",
+      "id": 10,
+      "buy_price": 6,
+      "unlock_rank": 12,
+      "adds_effect": 28,
+      "replaces_effects": {
+        "10": 24,
+        "11": 25,
+        "14": 33,
+        "21": 24,
+        "22": 1
+      }
+    },
+    "11": {
+      "name": "Mega Bean",
+      "id": 11,
+      "buy_price": 7,
+      "unlock_rank": 13,
+      "adds_effect": 14,
+      "replaces_effects": {
+        "2": 18,
+        "5": 16,
+        "10": 7,
+        "13": 8,
+        "17": 22,
+        "26": 13,
+        "27": 9,
+        "28": 33,
+        "30": 5,
+        "32": 10
+      }
+    },
+    "12": {
+      "name": "Chili",
+      "id": 12,
+      "buy_price": 7,
+      "unlock_rank": 14,
+      "adds_effect": 31,
+      "replaces_effects": {
+        "1": 34,
+        "2": 11,
+        "18": 20,
+        "21": 33,
+        "27": 23,
+        "30": 4
+      }
+    },
+    "13": {
+      "name": "Battery",
+      "id": 13,
+      "buy_price": 8,
+      "unlock_rank": 15,
+      "adds_effect": 4,
+      "replaces_effects": {
+        "1": 34,
+        "7": 16,
+        "9": 11,
+        "11": 35,
+        "18": 6,
+        "27": 21
+      }
+    },
+    "14": {
+      "name": "Iodine",
+      "id": 14,
+      "buy_price": 8,
+      "unlock_rank": 16,
+      "adds_effect": 17,
+      "replaces_effects": {
+        "5": 25,
+        "6": 15,
+        "11": 26,
+        "14": 22,
+        "23": 32,
+        "33": 30
+      }
+    },
+    "15": {
+      "name": "Addy",
+      "id": 15,
+      "buy_price": 9,
+      "unlock_rank": 17,
+      "adds_effect": 32,
+      "replaces_effects": {
+        "12": 11,
+        "14": 10,
+        "16": 23,
+        "20": 9,
+        "25": 15
+      }
+    },
+    "16": {
+      "name": "Horse Semen",
+      "id": 16,
+      "buy_price": 9,
+      "unlock_rank": 18,
+      "adds_effect": 20,
+      "replaces_effects": {
+        "1": 5,
+        "15": 23,
+        "32": 9
+      }
+    }
+  }
+}

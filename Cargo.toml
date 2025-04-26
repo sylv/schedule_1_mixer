@@ -1,0 +1,15 @@
+[package]
+name = "schedule_1_mixer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+itertools = "0.12"
+rayon = "1.8"
+thiserror = "1.0"
+indicatif = { version = "0.17", features = ["rayon"] }
+num-integer = "0.1"
+serde_with = "3.12.0"
+anyhow = "1.0.98"
